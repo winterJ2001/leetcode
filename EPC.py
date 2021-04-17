@@ -1,7 +1,7 @@
 from git import Repo
 import os
 
-dirfile = os.path.abspath('') # code的文件位置，我默认将其存放在根目录下
+dirfile = os.path.abspath('./') # code的文件位置，我默认将其存放在根目录下
 repo = Repo(dirfile)
 
 for i in range(2):
